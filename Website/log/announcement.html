@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Lost & Found | Contact </title>
+		<link rel="stylesheet" href="../css/index-style.css">
+	</head>
+
+	<body>
+
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class ="highlight"> Lost </span>And Found </h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>	
+						<li><a href="articole.html">Articole</a></li>
+						<li class="current"><a href="announcement.html">Adauga anunt</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="../index.html">Disconect</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section id="register">
+			<div class="container">
+				<h1> Giving Back Is Always In Style | Lost & Found </h1>
+			</div>
+		</section>
+
+		<section>
+			<div class="announcement">
+				<div>
+					<div class="col-md-4 col-md-offset-4">
+						<form class="form">
+                        	<div class="form-group">
+                            	<label>Tip Anunt:</label> <br>
+                            	<select name="announcement_type">
+                            		<option value="lost">Pierdut</option>
+                            		<option value="found">Gasit</option>
+                        		</select>
+                        	</div>
+                        	<div class="form-group">
+                            	<label>Tip Obiect:</label> <br>
+                            	<input type="text" name="tip-obiect" id="tip-obiect" required/>
+                        	</div>
+                        	<div class="form-group">
+                            	<label>Nume Obiect:</label> <br>
+                            	<input type="text" name="nume-obiect" id="nume-obiect" required/>
+                        	</div>
+							<div class="form-group">
+								<label>Descriere:</label> <br>
+								<input type="text" name="descriere" id= "descriere" required/>
+							</div>
+							<div class="form-group">
+								<label>Intrebare:</label> <br>
+								<input type="password" name="intrebare" id="intrebare" required/>
+							</div>
+							<div class="form-group">
+								<label>Raspuns:</label><br> 
+								<input type="email" name="raspuns" id="raspuns" required/> <br> <br>
+							</div>
+							<button type="submit" value="add">Adauga anunt</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p> Lost & Found, Copyright &copy; 2017</p>
+		</footer>
+	</body>
+
+</html>
